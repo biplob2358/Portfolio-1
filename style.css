@@ -4,6 +4,7 @@ body {
 h2 {
   font-size: 50px;
   font-family: "Lobster", cursive;
+  margin-top: 0%;
 }
 h3 {
   font-size: 20px;
@@ -12,10 +13,10 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 15px;
+  text-align: justify;
 }
 section {
   height: 600px;
-  margin-bottom: 0px;
 }
 .span1 {
   color: rgb(255, 0, 21);
@@ -52,4 +53,39 @@ section {
 }
 .img {
   margin-top: 40px;
+}
+
+#fb {
+  margin-right: 30px;
+}
+.exp {
+  background-image: linear-gradient(360deg, tomato, rgb(236, 232, 3));
+}
+#ex {
+  margin-left: 5%;
+}
+.co {
+  font-size: 30px;
+}
+.single-box {
+  box-shadow: 10px 10px 40px gray;
+  height: 80%;
+  background-color: whitesmoke;
+}
+.bb {
+  color: orange;
+}
+.u-list {
+  font-size: 25px;
+  margin-left: 25%;
+}
+#biplob1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(141, 62, 165), tomato);
+  border-image-slice: 1;
+}
+#biplob2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(241, 41, 6), rgb(219, 198, 9));
+  border-image-slice: 1;
 }
