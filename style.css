@@ -14,11 +14,11 @@ p {
   font-size: 15px;
 }
 section {
-  height: 500px;
-  margin-bottom: 150px;
+  height: 600px;
+  margin-bottom: 0px;
 }
 .span1 {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 0, 21);
 }
 .welcome {
   width: 40%;
@@ -41,4 +41,15 @@ section {
   font-weight: bold;
   color: white;
   box-shadow: 10px 10px 30px rgb(201, 140, 8);
+}
+.div {
+  height: 20px;
+  background-image: linear-gradient(90deg, rgb(230, 36, 2), rgb(236, 232, 3));
+  box-shadow: 10px 10px 20px rgb(233, 218, 5);
+}
+.dream {
+  background-image: linear-gradient(360deg, rgb(236, 232, 3), tomato);
+}
+.img {
+  margin-top: 40px;
 }
