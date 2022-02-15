@@ -49,7 +49,7 @@ section {
   box-shadow: 10px 10px 20px rgb(233, 218, 5);
 }
 .dream {
-  background-image: linear-gradient(360deg, rgb(236, 232, 3), tomato);
+  background-image: linear-gradient(270deg, rgb(236, 232, 3), tomato);
 }
 .img {
   margin-top: 40px;
@@ -59,7 +59,7 @@ section {
   margin-right: 30px;
 }
 .exp {
-  background-image: linear-gradient(360deg, tomato, rgb(236, 232, 3));
+  background-image: linear-gradient(90deg, rgb(236, 232, 3), tomato);
 }
 #ex {
   margin-left: 5%;
@@ -70,10 +70,9 @@ section {
 .single-box {
   box-shadow: 10px 10px 40px gray;
   height: 80%;
-  background-color: whitesmoke;
 }
 .bb {
-  color: orange;
+  color: rgb(255, 255, 255);
 }
 .u-list {
   font-size: 25px;
@@ -83,9 +82,17 @@ section {
   border-left: 7px solid;
   border-image: linear-gradient(rgb(141, 62, 165), tomato);
   border-image-slice: 1;
+  background-image: linear-gradient(tomato, rgb(206, 219, 14));
 }
 #biplob2 {
   border-left: 7px solid;
-  border-image: linear-gradient(rgb(241, 41, 6), rgb(219, 198, 9));
+  border-image: linear-gradient(rgb(141, 62, 165), tomato);
+  background-image: linear-gradient(rgb(206, 219, 14), tomato);
   border-image-slice: 1;
+}
+footer {
+  text-align: center;
+  background-image: linear-gradient(tomato, tomato);
+  margin-top: 0px;
+  color: white;
 }
