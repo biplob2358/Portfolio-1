@@ -33,3 +33,12 @@ section {
 .top-banner {
   background-image: linear-gradient(90deg, rgb(236, 232, 3), tomato);
 }
+.link {
+  text-decoration: none;
+  background-image: linear-gradient(90deg, rgb(219, 90, 5), rgb(143, 13, 143));
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 10px 10px 30px rgb(201, 140, 8);
+}
